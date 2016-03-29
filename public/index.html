@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CS4241-B15 Homework Assignment 8</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+    <!-- Author: Kewen Gu -->
+    <!-- URL: https://kgu-cs4241-main.herokuapp.com -->
+  </head>
+  <body>
+    <article>
+      <section>
+        <div id="inputs">
+          <form onsubmit="return false;">
+            <label class="title">Add your message here!</label>
+            <input type="text" name="username" id='username-text' placeholder="Nickname:" required>
+            <input type="text" name="msgbody" id='msgbody-text' placeholder="Message Content:" required>
+            <input type="submit" value="Submit" class="button" onclick="addMsg();">
+          </form>
+        </div>
+        <div id="top">
+          <h1>Assignment 8</h1>
+          <p id="sid"></p>
+        </div>
+        <div id="message-list"></div>
+        <p class="quote">#FINALWEEK @WPI</p>
+      </section>
+      <footer>
+        <p class="copyright">CS 4241: Webware (Fall 2015)</p>
+        <p class="copyright">Worcester Polytechnic Institute</p>
+      </footer>
+    </article>
+  </body>
+  <script src='js/assign7.js'> </script>
+</html>
