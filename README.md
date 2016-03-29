@@ -1,6 +1,6 @@
 ###Kewen Gu
 ###CS4241 Assignment 8
-###URL: <a href="https://kgu-cs4241-main.herokuapp.com">https://kgu-cs4241-main.herokuapp.com</a>
+###URL: https://kgu-cs4241-project8.herokuapp.com/
 
 <br>
 The style of this assignment is simply a huge background with all element of the page aligned at the center with proper margins. Inline blocks are used to display movie info. And a side bar navigates through the movie blocks.
